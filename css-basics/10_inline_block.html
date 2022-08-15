@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline & Block Styling</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* List must be display: inline to put them on the same line as it is naturally a block element */
+    li {
+      display: inline;
+    }
+
+    li a {
+      padding-right: 20px;
+    }
+    
+    /* Image must be display: block to center it as it is naturally an inline element */
+    img {
+      display: block;
+      margin: auto;
+    }
+
+    .box {
+      width: 32.8%;
+      display: inline-block;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+
+  <br><br>
+
+  <img src="./img/leaf.png" alt="My image">
+
+  <br><br>
+
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium eum est error voluptates sit labore recusandae nam asperiores dolores?</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium eum est error voluptates sit labore recusandae nam asperiores dolores?</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium eum est error voluptates sit labore recusandae nam asperiores dolores?</p>
+  </div>
+
+</body>
+</html>
