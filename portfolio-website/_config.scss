@@ -1,0 +1,33 @@
+// Font
+@font-face {
+    font-family: NB-International-Pro-Regular;
+    // font-weight: regular;
+    src: url(../fonts/NB-International-Pro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: NB-International-Pro-Light;
+    font-weight: light;
+    src: url(../fonts/NB-International-Pro-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: NB-International-Pro-Bold;
+    font-weight: bold;
+    src: url(../fonts/NB-International-Pro-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: NB-International-Pro-Italic;
+    font-weight: italic;
+    src: url(../fonts/NB-International-Pro-Italic.ttf) format('truetype');
+}
+
+// Variables
+$website-width: 1920px;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: url('../img/showcase.jpg');
+$color-off-white: #fdfbf2; 
