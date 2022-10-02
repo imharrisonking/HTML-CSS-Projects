@@ -106,8 +106,6 @@ img {
     }
 
     // Header Inner
-    &-inner {
-    }
 }
 
 // Home Sections
@@ -159,12 +157,12 @@ img {
             }
         }
     }
-}
 
-// Home Section C
-&-c {
-    .process-step {
-        font-size: 2rem;
+    // Home Section C
+    &-c {
+        .process-step {
+            font-size: 2rem;
+        }
     }
 }
 
