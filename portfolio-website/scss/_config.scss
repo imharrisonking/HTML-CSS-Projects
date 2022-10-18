@@ -30,3 +30,13 @@ $medium-color: #ccc;
 $dark-color: #333;
 $bg-image: url('../img/showcase.jpg');
 $color-off-white: #fdfbf2; 
+
+// Set Text Color
+@function set-text-colour($color) {
+    @if(lightness($color) < 50) {
+        @return #000; }
+        @else {
+            @return #fff;
+        }
+
+    }

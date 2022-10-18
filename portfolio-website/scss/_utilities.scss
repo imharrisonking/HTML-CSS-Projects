@@ -35,7 +35,7 @@
     }
    &-dark {
         @extend %btn-shared;
-        color: #333;
+        color: #fff;
         background-color: $dark-color;
     }
 }
@@ -44,6 +44,26 @@ button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
     background-color: $main-color;
+}
+
+// Backgrounds
+.bg {
+    &-main {
+        background: $main-color;
+        color: set-text-color($main-color);
+    }
+    &-dark {
+        background: $dark-color;
+        color: set-text-color($dark-color);
+    }
+    &-light {
+        background: $light-color;
+        color: set-text-color($light-color);
+    }
+    &-medium {
+        background: $medium-color;
+        color: set-text-color($medium-color);
+    }
 }
 
 .lead {
@@ -89,6 +109,15 @@ input[class^='btn-']:hover {
     &-4 {
         margin: 4rem 0;
     }
+}
+
+.section-title {
+    font-size: 4rem;
+    display: block;
+    padding-bottom: 0.7rem;
+    text-align: center;
+    font-weight: 100;
+
 }
 
 .bottom-line {
